@@ -1,0 +1,2 @@
+name,category,UI,speed,dev,joy,Windows,Darwin,Debian,windows_message,darwin_message,debian_mssage,positive_rule,negative_rule,citation,location,config_file
+git,D-tool,Both,2,?,,https://api.github.com/repos/git-for-windows/git/releases,git,git,,,,,"mingit, portable",,,
