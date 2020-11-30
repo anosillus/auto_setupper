@@ -35,6 +35,7 @@ def main():
         # Grep with condition like kind of Tools, like CUI tool only.
 
         content: str = get_main_content_from_csv(row_data, MyOS.os_name)
+        # I should have make content class.
 
         if not content:
             continue
