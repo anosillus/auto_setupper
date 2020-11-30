@@ -41,6 +41,7 @@ def main():
             continue
         elif is_url(content):
             if is_github_api(content):
+                # link should have been class.(url checker is required)
                 download_link = get_download_link_from_github(
                     content,
                     MyOS.get_os_negaposi_dict(),
